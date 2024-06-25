@@ -1,5 +1,5 @@
-# djangorestfull_autentication_authorization
-Proyecto de Django REST FULL 
+# What is
+Proyect Django REST FULL 
 
 ```
 git init
