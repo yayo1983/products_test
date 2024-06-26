@@ -66,3 +66,40 @@ docker-compose build
 ```
 docker-compose up
 ```
+
+# API Endpoints
+
+## Create a new product
+
+- URL: /api/products
+- Method: POST
+- Payload:
+```
+{
+  "sku": "string",
+  "name": "string"
+}
+```
+
+## Add stock to a product
+
+- URL: /api/inventories/product/{PRODUCT_ID}
+- Method: PATCH
+- Payload:
+```
+{
+  "stock": "integer",
+}
+```
+
+## Place an order
+
+- URL: /api/orders
+- Method: POST
+- Payload:
+```
+{
+  "id": "integer",
+  "stock": "integer"
+}
+```
