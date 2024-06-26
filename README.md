@@ -6,8 +6,8 @@ The project is containerized with Docker and configured to use SQLite as the dat
 
 ## Features
 
-- **Product Management**: Create and manage products with SKU, name, and stock.
-- **Inventory Management**: Update stock for products.
+- **Create Product**: Create and manage products with SKU, name, and stock.
+- **Product Update**: Update stock for products.
 - **Order Management**: Place orders for products.
 - **Stock Alerts**: Trigger alerts when stock is below a certain threshold.
 - **API Documentation**: Automatically generated API documentation with Swagger.
@@ -15,8 +15,8 @@ The project is containerized with Docker and configured to use SQLite as the dat
 ## Project Structure
 ```
 product_system/
-├── api/                    # Django app for API endpoints
-├── inventory_system/       # Project settings and configurations
+├── products/               # Django app for API endpoints
+├── products_test/          # Project settings and configurations
 ├── Dockerfile              # Dockerfile for containerizing the application
 ├── docker-compose.yml      # Docker Compose configuration
 ├── pyproject.toml          # Poetry configuration file
