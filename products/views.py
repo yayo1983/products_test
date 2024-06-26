@@ -29,7 +29,6 @@ class UpdateStockView(APIView):
 
 class OrderCreateView(APIView):
     def post(self, request, format=None):
-        # Dummy implementation for creating orders and reducing stock
         product_id = request.data.get('product_id')
         quantity = request.data.get('quantity', 1)
         
