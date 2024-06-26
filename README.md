@@ -14,7 +14,7 @@ The project is containerized with Docker and configured to use SQLite as the dat
 
 ## Project Structure
 ```
-inventory_system/
+product_system/
 ├── api/                    # Django app for API endpoints
 ├── inventory_system/       # Project settings and configurations
 ├── Dockerfile              # Dockerfile for containerizing the application
