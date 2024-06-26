@@ -88,7 +88,7 @@ docker-compose up
 - Payload:
 ```
 {
-  "stock": "integer",
+  "stock": "integer"
 }
 ```
 
@@ -103,3 +103,6 @@ docker-compose up
   "quantity": "integer"
 }
 ```
+## Swagger documentation
+
+- URL: swagger/
