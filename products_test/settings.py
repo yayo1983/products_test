@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-        # Third-party apps
     'rest_framework',  # Add DRF to handle API
-    'products'
+    'products',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [

@@ -2,11 +2,11 @@ from rest_framework import generics, status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from .models import Product
-from .serializers import ProductSerializer
+from .serializers import ProductSerializer, CreateProductSerializer
 
 class ProductCreateView(generics.CreateAPIView):
     queryset = Product.objects.all()
-    serializer_class = ProductSerializer
+    serializer_class = CreateProductSerializer
 
     def perform_create(self, serializer):
         serializer.save(stock=100)
