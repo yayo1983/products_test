@@ -1,5 +1,5 @@
 
-# Inventory Management System
+# Product Management System
 
 This is an Products Management System built with Django, using Django REST Framework for API endpoints. 
 The project is containerized with Docker and configured to use SQLite as the database.
