@@ -13,6 +13,7 @@ The project is containerized with Docker and configured to use SQLite as the dat
 - **API Documentation**: Automatically generated API documentation with Swagger.
 
 ## Project Structure
+```
 inventory_system/
 ├── api/                    # Django app for API endpoints
 ├── inventory_system/       # Project settings and configurations
@@ -21,8 +22,7 @@ inventory_system/
 ├── pyproject.toml          # Poetry configuration file
 ├── poetry.lock             # Poetry lock file
 └── README.md               # Project README file
-
-
+```
 
 ## Save repo in github
 ```
