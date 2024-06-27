@@ -99,7 +99,7 @@ docker-compose up
 - Payload:
 ```
 {
-  "product_id": "integer",
+  "product_id": "str",
   "quantity": "integer"
 }
 ```
